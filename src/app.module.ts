@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuctionItemModule } from './auction-item/auction-item.module';
-import { AuctionModule } from './auction/auction.module';
+import { AuctionModule } from './auction/auctions.module';
 
 @Module({
   imports: [AuctionItemModule, AuctionModule],
